@@ -2,9 +2,9 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
   "manifest_version": 2,
-  "name": "Screencastify - Screen Video Recorder",
+  "name": "Screencastify Untrack",
   "short_name": "Screencastify",
-  "description": "The leading screen recorder for Chrome. Capture, edit and share videos in seconds.",
+  "description": "The leading screen recorder for Chrome, without worrying about having your data sent to Google. Capture, edit and share videos in seconds.",
   "version": "2.75.0.4770",
   "icons": {
     "16": "assets/images/icon16.png",
@@ -83,7 +83,7 @@
     "default_title": "",
     "default_popup": "popup.html"
   },
-  "content_security_policy": "    script-src 'unsafe-inline' 'unsafe-eval' 'self' https://www.google-analytics.com https://apis.google.com https://app.pendo.io https://pendo-io-static.storage.googleapis.com https://cdn.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com https://data.pendo.io;    object-src 'self';    img-src https://*.googleusercontent.com https://cdn.pendo.io https://app.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com https://data.pendo.io;    style-src 'self' 'unsafe-inline' https://app.pendo.io https://cdn.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com;    frame-src https://app.pendo.io;    child-src https://app.pendo.io;    ",
+  "content_security_policy": "    script-src 'unsafe-inline' 'unsafe-eval' 'self' https://apis.google.com https://app.pendo.io https://pendo-io-static.storage.googleapis.com https://cdn.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com https://data.pendo.io;    object-src 'self';    img-src https://*.googleusercontent.com https://cdn.pendo.io https://app.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com https://data.pendo.io;    style-src 'self' 'unsafe-inline' https://app.pendo.io https://cdn.pendo.io https://pendo-static-5576174479474688.storage.googleapis.com;    frame-src https://app.pendo.io;    child-src https://app.pendo.io;    ",
   "web_accessible_resources": [
     "assets/fonts/draw/*.woff2",
     "cam-frame.html"
